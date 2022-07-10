@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(232, 201, 232);
+}
+
+.container {
+    text-align: center;
+    border: 2px solid;
+    background-color: purple;
+    width: 50vw;
+    height: 80vh;
+    justify-content: center;
+    margin: auto;
+    padding-top: 50px;
+    margin-top: 50px;
+    box-shadow: 30px 20px 10px rgb(102, 87, 102);
+}
+
+.container h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-decoration:dotted;
+}
+
+.container .tools .nush li {
+    list-style: none;
+}
+
+.container .tools{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.container .tools .nush {
+    padding-top: 10px;
+}
