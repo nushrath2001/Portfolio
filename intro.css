@@ -13,7 +13,7 @@ body {
     border: 2px solid;
     background-color: purple;
     width: 50vw;
-    height: 70vh;
+    height: 90vh;
     justify-content: center;
     margin: auto;
     padding-top: 50px;
@@ -54,4 +54,59 @@ margin-bottom: 10px;
     font-size: 20px;
 }
 
+.btn {
+    color: purple;
+    font-weight: bold;
+    padding: 3px;
+    margin-bottom: 150px;
+    font-size:20px;
+}
 
+@media only screen and (min-width: 768px) {
+    .container {
+        height: 52vh;
+        width:60vw ;
+        padding: 5px;
+        text-align: center;
+
+    }
+}
+
+@media only screen and (max-width: 420px){
+
+    .container {
+        border: none;
+        background-color: rgb(232, 201, 232);
+        height: 12vh;
+    margin-top: -5vh;
+    }
+
+    .container .about h1 {
+        padding-bottom: 12px;
+    margin-top: -25px;
+    }
+    .container .about  {
+        padding-top: 39px;
+        font-size: 18px;
+    }
+
+    .container .book  h2{
+        padding-top: -5px;
+        font-size: 27px;
+    }
+
+    .container .book p {
+        font-size: 18px;
+        margin-top: -13px;
+    }
+
+    .container .career h2 {
+        padding-top:-5px;
+        font-size: 27px;
+    }
+
+    .container .career p {
+        font-size: 17px;
+        margin-top: -13px;
+    }
+}

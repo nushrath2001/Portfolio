@@ -49,3 +49,50 @@ body {
     background-color: darkgray;
 }
 
+.btn {
+    color: purple;
+    font-weight: bold;
+    padding: 3px;
+    margin-bottom: 150px;
+    font-size:20px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .main {
+        width: 50vw;
+    height: 53vh;
+    
+    }
+
+    .contactform {
+        height: 50vh;
+        margin-left: 167px;
+    }
+}
+
+
+@media only screen and (max-width: 420px) {
+
+    .contactform {
+        border: none;
+        background-color: rgb(232, 201, 232);
+        height: 17vh;
+    width: 53vw;
+    margin-left: 98px;
+    }
+
+    .contactform h1 {
+        font-size: 25px;
+    }
+
+    .contactform .button {
+        padding: 7px;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+}

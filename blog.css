@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(232, 201, 232);
+height: -100px;
 }
 
 .container {
@@ -13,7 +14,7 @@ body {
     border: 2px solid;
     background-color: purple;
     width: 50vw;
-    height: 80vh;
+    height: 89vh;
     justify-content: center;
     margin: auto;
     padding-top: 50px;
@@ -40,3 +41,35 @@ body {
 .container .tools .nush {
     padding-top: 10px;
 }
+
+.btn {
+    display: inline;
+    color: purple;
+    font-weight: bold;
+    padding: 3px;
+    margin-top: -600px;
+    font-size:20px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .container {
+            height: 78vh;
+            margin-top: 21px;
+        }
+    }
+
+    @media only screen and (max-width: 420px) {
+        .container {
+            background-color: rgb(232, 201, 232);
+            border: none;
+            width: 70vw;
+            height: 13vh;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: -150px;
+            margin-left: 150px;
+        }
+    }
