@@ -6,12 +6,12 @@
 }
 
 body {
-    background-color: rgb(232, 201, 232);
+    background-color: #e6e6e6;;
     overflow: hidden;
 }
 
 .btn {
-    color: purple;
+    color:#3d4c41;
     font-weight: bold;
     padding: 3px;
     margin-bottom: 150px;

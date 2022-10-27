@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: rgb(232, 201, 232);
+    background-color:#e6e6e6;
 }
 
 
 .container{
     border: 2px solid;
-    background-color: purple;
+    background-color:#999999;
     width: 50vw;
     height: 90vh;
     justify-content: center;
@@ -55,7 +55,7 @@ margin-bottom: 10px;
 }
 
 .btn {
-    color: purple;
+    color:#3d4c41;
     font-weight: bold;
     padding: 3px;
     margin-bottom: 150px;
@@ -76,7 +76,7 @@ margin-bottom: 10px;
 
     .container {
         border: none;
-        background-color: rgb(232, 201, 232);
+        background-color:whitesmoke;
         height: 12vh;
     margin-top: -5vh;
     }
