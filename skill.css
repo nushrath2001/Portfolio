@@ -23,7 +23,7 @@ height: -100px;
 }
 
 .container h1 {
-    font-size: 50px;
+    font-size: 37px;
     font-weight: bold;
     color: black;
     text-decoration:dotted;
@@ -61,7 +61,7 @@ height: -100px;
 
     @media only screen and (max-width: 420px) {
         .container {
-            background-color: rgb(232, 201, 232);
+            background-color: #999999;
             border: none;
             width: 70vw;
             height: 13vh;

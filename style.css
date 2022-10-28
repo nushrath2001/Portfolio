@@ -231,14 +231,14 @@
         flex-direction: column-reverse;
         font-size: 2px;
         margin-left:30px;
-         margin-top: 80px; 
+         margin-top: 180px; 
     }
     .container {
         display: flex;
         flex-direction: row;
         width: 100vw;
         height: 100vh;
-        overflow: hidden; 
+        /* overflow: hidden;  */
     }
 
     .main {
@@ -257,5 +257,16 @@
     }
      .about {
         font-size: 30px;
+     }
+
+     .hamburger{
+        position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left:-23px;
+     }
+
+     .cross {
+        margin-left: 200px;
      }
 }
