@@ -9,7 +9,6 @@
     box-sizing: border-box;
 }
 
-
 .sidebar {
     position: absolute;
     background-color:#3d4c41;
@@ -218,9 +217,10 @@
 
 @media only screen and (max-width:420px) {
    
-     body {
-        overflow: hidden;
-    } 
+    body {
+        overflow: scroll;
+    }
+
     .dev {
         width: 250px;
         height: 250px;
